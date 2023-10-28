@@ -1,8 +1,7 @@
 # CWComm Protocol Description
+- Extending the CWCom Communications Protocol to Support Closed-Circuit Telegraphy
 
-[Original PDF](./cwcom.pdf)
 
-# Extending the CWCom Communications Protocol to Support Closed-Circuit Telegraphy
 Les Kerr; 25 June 2006; Revised, 13 June 2008
 
 The CWCom system, developed by John Samin at MRX Software, is a popular and successful method of sending Morse code over the internet. CWCom does an excellent job of simulating radiotelegraphy.
@@ -68,3 +67,6 @@ MorseKOB mimics this behavior very closely. If one KOB user opens his key while 
 There are two ways in which MorseKOB does not emulate true break behavior. For one thing, the sending operator can override the break and regain control of the wire by toggling the Circuit Closer on the KOB window.
 
 The other departure from reality is the effect of the break as observed by users other than the sending and breaking users. If the sender continues to send after the break in spite of the fact that his sounder has gone silent – perhaps because he’s sending from the keyboard and not paying close attention to the sounder – all users on the wire other than the sender and breaker will hear the continued sending; on a real telegraph wire the circuit would be open and they’d hear nothing. This effect is a result of the simplistic way the KOB program handles multiple users, rather than a shortcoming of the extended CWCom protocol itself.
+
+# References
+- [Original PDF](./cwcom.pdf) by Les Kerr
