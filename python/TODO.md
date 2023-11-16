@@ -1,1 +1,2 @@
 - Create a package using https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- urls in readme
