@@ -1,4 +1,4 @@
-# CWComm Protocol Description
+# CWCom Protocol Description
 - Extending the CWCom Communications Protocol to Support Closed-Circuit Telegraphy
 
 

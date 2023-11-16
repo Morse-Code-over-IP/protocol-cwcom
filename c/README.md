@@ -1,12 +1,12 @@
-Below is a description of the CWComm protocol in the context of C programming language, along with examples of how the protocol structures and commands can be represented in C code:
+Below is a description of the CWCom protocol in the context of C programming language, along with examples of how the protocol structures and commands can be represented in C code:
 
-### CWComm Protocol Description (C Programming Language):
+### CWCom Protocol Description (C Programming Language):
 
 #### 1. **Protocol Name:**
-   - CWComm Protocol
+   - CWCom Protocol
 
 #### 2. **Purpose:**
-   - CWComm Protocol facilitates Morse code communication over the internet using a series of packets to represent dots, dashes, and spaces. It aims to simulate closed-circuit telegraphy, allowing users to send and receive Morse code messages.
+   - CWCom Protocol facilitates Morse code communication over the internet using a series of packets to represent dots, dashes, and spaces. It aims to simulate closed-circuit telegraphy, allowing users to send and receive Morse code messages.
 
 
 #### 3. **Data Types:**
@@ -74,15 +74,15 @@ struct DataPacket createDisconnectPacket(char* identifier, unsigned int sequence
      - 4. Communication can be interrupted by sending a disconnect packet using `createDisconnectPacket` function.
 
 #### 10. **Security Considerations:**
-   - - CWComm protocol does not inherently provide encryption or authentication. If secure communication is required, external mechanisms like SSL/TLS should be used.
+   - - CWCom protocol does not inherently provide encryption or authentication. If secure communication is required, external mechanisms like SSL/TLS should be used.
 
 #### 11. **Dependencies:**
    - - Standard C libraries for string manipulation and memory copying.
 
 #### 12. **References:**
-   - - CWComm protocol design inspired by Morse code communication principles and closed-circuit telegraphy concepts.
+   - - CWCom protocol design inspired by Morse code communication principles and closed-circuit telegraphy concepts.
 
-This description provides a C-specific overview of the CWComm protocol, including data structures, commands, and example usage. Implementers can use this description as a reference to create CWComm protocol implementations in the C programming language.
+This description provides a C-specific overview of the CWCom protocol, including data structures, commands, and example usage. Implementers can use this description as a reference to create CWCom protocol implementations in the C programming language.
 
 
 ### Protocol API Description
